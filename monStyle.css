@@ -1,6 +1,7 @@
 body{
     display: grid;
     grid-template-columns: 2fr 1fr;
+    background-color: #2E294E;
 }
 
 #botPart, #playerPart{
@@ -8,6 +9,7 @@ body{
     justify-content: space-around;
     padding-top:100px;
     padding-bottom: 100px;
+    background-color:#473F78;
 }
 
 #botPart > .cercleBot{
@@ -23,9 +25,11 @@ body{
     background: grey;
 }
 #info{
+    color: white;
     display: grid;
     grid-template-rows: 1fr 3fr;
     border: solid 10px;
+    background-color: #473F78;
 }
 
 #info > #colors > .square{
